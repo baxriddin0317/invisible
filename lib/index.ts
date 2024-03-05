@@ -4,7 +4,7 @@ export const menu = [
     links: [
       {
         name: "Page One",
-        href: "/"
+        href: "safety"
       },
       {
         name: "Page Two",
@@ -12,7 +12,7 @@ export const menu = [
       },
       {
         name: "Page Three",
-        href: "automotive"
+        href: "safety"
       },
     ]
   },
@@ -21,11 +21,11 @@ export const menu = [
     links: [
       {
         name: "Page One",
-        href: "/"
+        href: "automotive"
       },
       {
         name: "Page Two",
-        href: "safety"
+        href: "automotive"
       },
       {
         name: "Page Three",

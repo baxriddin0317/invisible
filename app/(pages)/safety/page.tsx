@@ -1,4 +1,4 @@
-import { Hear, Newslatter, Training, Visibility } from '@/components'
+import { Newslatter, Testimonial, Training, Visibility } from '@/components'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
@@ -80,7 +80,7 @@ const Safety = () => {
       </section>
 
       <Visibility />
-      <Hear />
+      <Testimonial />
       <Training />
       <Newslatter />
     </main>

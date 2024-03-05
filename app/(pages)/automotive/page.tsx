@@ -1,4 +1,4 @@
-import { Cases, Hear, Market, Newslatter } from '@/components'
+import { Cases, Market, Newslatter, Testimonial } from '@/components'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
@@ -39,7 +39,7 @@ const Automotive = () => {
         <h2 className="font-semibold leading-tight text-3xl/snug lg:text-4xl/tight xl:text-5xl/snug uppercase mb-6 xl:mb-10">
           hear from our customers
         </h2>
-        <Hear />
+        <Testimonial />
       </section>
       <Newslatter />
     </main>

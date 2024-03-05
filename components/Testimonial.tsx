@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-export const Hear = () => {
+export const Testimonial = () => {
   return (
     <div className="max-w-xxl mx-auto px-4 mt-6 lg:mt-0">
       <div className="relative text-white rounded-xl p-6 lg:p-10 xl:px-16 overflow-hidden">

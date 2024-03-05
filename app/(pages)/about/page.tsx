@@ -11,7 +11,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 
 // import required modules
-import { Navigation } from 'swiper/modules';
+import { Autoplay, Navigation } from 'swiper/modules';
 import Link from 'next/link';
 
 const About = () => {
@@ -87,10 +87,19 @@ const About = () => {
             navigation={{
               nextEl: '.nextBtn',
               prevEl: '.prevBtn'
+            }}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
             }} 
-            modules={[Navigation]} 
+            modules={[Navigation, Autoplay]} 
             className="mySwiper"
           >
+            <SwiperSlide>
+              <div className="relative py-32 lg:py-48 xl:py-64 mt-8 lg:mt-16">
+                <Image fill className="absolute left-0 w-full top-0 h-full z-0 size-full object-cover" src="/assets/images/one-slider.jpeg" alt='' />
+              </div>
+            </SwiperSlide>
             <SwiperSlide>
               <div className="relative py-32 lg:py-48 xl:py-64 mt-8 lg:mt-16">
                 <Image fill className="absolute left-0 w-full top-0 h-full z-0 size-full object-cover" src="/assets/images/one-slider.jpeg" alt='' />

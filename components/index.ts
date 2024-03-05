@@ -1,6 +1,6 @@
 export {Header} from "./Header"
 export {Newslatter} from "./Newslatter"
-export {Hear} from "./Hear"
+export {Testimonial} from "./Testimonial"
 export {HeroSlider} from "./Home/HeroSlider"
 export { HeroAbout} from "./About/HeroAbout"
 export {Feature} from "./About/Feature"

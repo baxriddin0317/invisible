@@ -38,6 +38,10 @@ const config: Config = {
             500: "#dfdbe8",
             600: "#4a4062",
           },
+          btn: {
+            DEFAULT: '#00A690',
+            hover: "#0A2540"
+          }
         },
       },
       boxShadow: {

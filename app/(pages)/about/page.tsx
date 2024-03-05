@@ -160,10 +160,8 @@ const About = () => {
             <p className="lg:text-lg mt-4 lg:mt-6">
               Build the next generation of AI &amp; computer vision products with Invisible AI.
             </p>
-            <Link href="#" className="relative group inline-block font-bold text-white uppercase rounded-full overflow-hidden transition duration-300 px-8 xl:px-14 py-3 mt-5 lg:mt-8 xl:mt-16">
-              <span className="relative z-10">See open positions</span>
-              <Image fill className="block group-hover:hidden absolute inset-0 z-0 transition ease-in-out duration-700 size-full object-cover" src="/assets/images/button-default.png" alt='' />
-              <Image fill className="hidden group-hover:block absolute inset-0 z-0 transition ease-in-out duration-700 size-full object-cover" src="/assets/images/button-hover.png" alt='' />
+            <Link href="#" className="bg-brand-btn hover:bg-brand-btn-hover inline-block font-bold text-white uppercase rounded-full overflow-hidden transition duration-300 px-8 xl:px-14 py-3 mt-5 lg:mt-8 xl:mt-16">
+              <span>See open positions</span>
             </Link> 
           </div>
         </div>

@@ -16,14 +16,8 @@ const Automotive = () => {
               The world’s leading automotive OEMs and Suppliers leverage Invisible AI to isolate bottlenecks,
               increase throughput, improve employee training and much more.
             </p>
-            <Link href="#" className="relative group w-full md:w-auto inline-block font-bold text-center text-white uppercase rounded-full overflow-hidden transition duration-300 px-8 xl:px-14 py-3 xl:py-5 mt-12 xl:mt-20">
-              <span className="relative z-10">request demo</span>
-              <div className="block group-hover:hidden absolute inset-0 z-0 transition ease-in-out duration-700">
-                <Image fill className="size-full object-cover" src="/assets/images/button-default.png" alt='' />
-              </div>
-              <div className="hidden group-hover:block absolute inset-0 z-0 transition ease-in-out duration-700">
-                <Image fill className="size-full object-cover" src="/assets/images/button-hover.png" alt='' />
-              </div>
+            <Link href="#" className="bg-brand-btn hover:bg-brand-btn-hover w-full md:w-auto inline-block font-bold text-center text-white uppercase rounded-full overflow-hidden transition duration-300 px-8 xl:px-14 py-3 xl:py-5 mt-12 xl:mt-20">
+              <span>request demo</span>
             </Link>
           </div>
         </div>

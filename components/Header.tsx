@@ -32,14 +32,8 @@ export const Header = () => {
         sa
       </div> */}
 
-      <Link href="#" className="relative group hidden md:inline-block font-bold text-center text-white uppercase rounded-full overflow-hidden transition duration-300 px-8 xl:px-14 py-3 ml-auto">
-        <span className="relative z-10">Questions</span>
-        <div className="block group-hover:hidden absolute inset-0 z-0 transition ease-in-out duration-700">
-          <Image className="size-full object-cover" fill src="/assets/images/button-default.png" alt='sakdjna' />
-        </div>
-        <div className="hidden group-hover:block absolute inset-0 z-0 transition ease-in-out duration-700">
-          <Image className="size-full object-cover" fill src="/assets/images/button-hover.png" alt='sakdjna' />
-        </div>
+      <Link href="#" className="hidden md:inline-block bg-brand-btn hover:bg-brand-btn-hover font-bold text-center text-white uppercase rounded-full overflow-hidden transition duration-300 px-8 xl:px-14 py-3 ml-auto">
+        <span>Questions</span>
       </Link> 
       {/*menu btn  */}
       <button type="button" className="block lg:hidden text-brand-blue-100 bg-white rounded-md p-3 ml-auto md:ml-0">

@@ -14,14 +14,8 @@ export const Newslatter = () => {
         <form action="#" className="flex flex-col md:flex-row items-stretch gap-5 lg:gap-8">
           <input type="email" name="email" placeholder="Email address..." className="flex-1 focus:outline-none bg-white border border-gray-300 focus:border-brand-blue-100
           rounded-full p-2.5 lg:p-4 px-6 lg:px-8" />
-          <button type="button" className="relative group font-bold text-white uppercase rounded-full overflow-hidden transition duration-300 px-8 xl:px-14 py-2.5 lg:py-5">
-            <span className="relative whitespace-nowrap z-10">request demo</span>
-            <div className="block group-hover:hidden absolute inset-0 z-0 transition ease-in-out duration-700">
-              <Image fill className="size-full object-cover" src="/assets/images/button-default.png" alt='' />
-            </div>
-            <div className="hidden group-hover:block absolute inset-0 z-0 transition ease-in-out duration-700">
-              <Image fill className="size-full object-cover" src="/assets/images/button-hover.png" alt='' />
-            </div>
+          <button type="button" className="bg-brand-btn hover:bg-brand-btn-hover font-bold text-white uppercase rounded-full overflow-hidden transition duration-300 px-8 xl:px-14 py-2.5 lg:py-5">
+            <span className="whitespace-nowrap ">request demo</span>
           </button>
         </form>
       </div>

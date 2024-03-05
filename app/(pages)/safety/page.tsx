@@ -15,14 +15,8 @@ const Safety = () => {
             <p className="lg:text-lg font-semibold text-brand-black mt-4 lg:mt-6">
               Proactively address potential hazards and promote a safety-conscious culture with our manufacturing vision platform.
             </p>
-            <Link href="#" className="relative group w-full md:w-auto inline-block font-bold text-center text-white uppercase rounded-full overflow-hidden transition duration-300 px-8 xl:px-14 py-3 xl:py-5 mt-12 xl:mt-20">
-              <span className="relative z-10">request demo</span>
-              <div className="block group-hover:hidden absolute inset-0 z-0 transition ease-in-out duration-700">
-                <Image fill className="size-full object-cover" src="/assets/images/button-default.png" alt='' />
-              </div>
-              <div className="hidden group-hover:block absolute inset-0 z-0 transition ease-in-out duration-700">
-                <Image fill className="size-full object-cover" src="/assets/images/button-hover.png" alt='' />
-              </div>
+            <Link href="#" className="bg-brand-btn hover:bg-brand-btn-hover w-full md:w-auto inline-block font-bold text-center text-white uppercase rounded-full overflow-hidden transition duration-300 px-8 xl:px-14 py-3 xl:py-5 mt-12 xl:mt-20">
+              <span>request demo</span>
             </Link>
           </div>
         </div>

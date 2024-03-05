@@ -15,7 +15,7 @@ export const Training = () => {
               <Image fill className="absolute inset-0 size-full object-cover" src="/assets/images/play-img.png" alt='' />
             </div>
             <h5 className="text-xl lg:text-2xl xl:text-3xl">Video Playback</h5>
-            <p className="mt-4 xl:mt-6">See exactly what's happening on the floor to ensure safety compliance.</p>
+            <p className="mt-4 xl:mt-6">See exactly what&apos;s happening on the floor to ensure safety compliance.</p>
           </div>
           <div className="bg-white rounded-lg p-4 xl:px-10 xl:pb-10 pt-6">
             <h6 className="font-bold uppercase">save for later</h6>

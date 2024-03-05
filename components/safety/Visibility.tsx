@@ -23,7 +23,7 @@ export const Visibility = () => {
           {/*2 */}
           <div className="order-1 md:order-none relative w-full md:h-64 lg:h-96 xl:h-xl md:grid md:place-content-center">
             <div className="relative z-10 py-2.5 md:py-7">
-              <img className="size-full object-cover" src="/assets/images/factory-1.png" alt='' />
+              <Image width={419} height={679} className="size-full object-cover" src="/assets/images/factory-1.png" alt='' />
             </div>
             <div>
               <Image fill className='absolute top-0 h-full left-0 w-full z-0' src="/assets/images/factory-gr.png" alt='' />
@@ -32,7 +32,7 @@ export const Visibility = () => {
           {/*3 */}
           <div className="order-3 md:order-none relative w-full md:h-64 lg:h-96 xl:h-xl md:grid md:place-content-center">
             <div className="relative z-10 py-2.5 md:py-7">
-              <img className="size-full object-cover z-10" src="/assets/images/factory-2.png" alt='' />
+              <Image width={419} height={679} className="size-full object-cover z-10" src="/assets/images/factory-2.png" alt='' />
             </div>
             <div>
               <Image fill className="absolute top-0 left-0 size-full object-cover" src="/assets/images/factory-gr.png" alt='' />
@@ -52,7 +52,7 @@ export const Visibility = () => {
           {/*6 */}
           <div className="order-5 md:order-none relative w-full md:h-64 lg:h-96 xl:h-xl md:grid md:place-content-center">
             <div className="relative z-10 py-2.5 md:py-7">
-              <img className="size-full object-cover" src="/assets/images/sport-part.png" alt='' />
+              <Image width={419} height={679} className="size-full object-cover" src="/assets/images/sport-part.png" alt='' />
             </div>
             <div>
               <Image fill className='absolute top-0 h-full left-0 w-full z-0' src="/assets/images/factory-gr.png" alt='' />
@@ -61,7 +61,7 @@ export const Visibility = () => {
           {/*7 */}
           <div className="order-7 md:order-none relative w-full md:h-64 lg:h-96 xl:h-xl md:grid md:place-content-center">
             <div className="relative z-10 py-2.5 md:py-7">
-              <img className="size-full object-cover z-10" src="/assets/images/videos.png" alt='' />
+              <Image width={419} height={679} className="size-full object-cover z-10" src="/assets/images/videos.png" alt='' />
             </div>
             <div>
               <Image fill className="absolute top-0 left-0 h-full w-full size-full object-contain" src="/assets/images/factory-gr.png" alt='' />

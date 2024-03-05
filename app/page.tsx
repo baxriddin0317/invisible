@@ -24,14 +24,16 @@ export default function Home() {
               </Link>
             </div>
             <div className="order-first lg:order-none lg:col-span-2 relative h-64 sm:h-72 md:h-96 xl:h-[33.125rem] px-5 md:pl-0 md:pr-10 lg:pr-20">
-              <img className="size-full object-cover rounded-xl"  src="/assets/images/worker.png" alt='' />
+              <div className="relative size-full rounded-xl overflow-hidden">
+                <Image fill className="absolute size-full object-cover"  src="/assets/images/worker.png" alt='' />
+              </div>
               {/* alert */}
               <div className="absolute -top-4 lg:-top-12 left-1/4 sm:ml-5 lg:ml-10 w-12 lg:w-20">
-                <img src="/assets/images/alert.svg" alt='' />
+                <Image width={80} height={80} src="/assets/images/alert.svg" alt='' />
               </div>
               {/* ergo monitor */}
-              <div className="absolute -top-[15%] -right-[5%] w-2/5">
-                <img className="object-cover" src="/assets/images/monitor-card.png" alt='' />
+              <div className="absolute -top-[15%] -right-[5%] w-2/5 h-5/6">
+                <Image fill className="object-contain" src="/assets/images/monitor-card.png" alt='' />
               </div>
             </div>
           </div>

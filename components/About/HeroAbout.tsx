@@ -10,7 +10,7 @@ export const HeroAbout = () => {
         <h4 className="text-brand-gray-200 font-bold uppercase tracking-widest">about</h4>
         <h1 className="text-3xl lg:text-4xl/tight xl:text-6xl/tight uppercase">company</h1>
         <p className="lg:text-lg font-semibold">
-          We're building state of the art AI solutions for manufacturing.
+          We&apos;re building state of the art AI solutions for manufacturing.
         </p>
       </div>
       {/* grid image */}

@@ -28,6 +28,9 @@ export default function Home() {
       <Ergonomics />
       {/* section 3 */}
       <Payments />
+      <Payments />
+      <Payments />
+      <Payments />
       {/* section 4 */}
       <Cards />
       {/* section 5 */}

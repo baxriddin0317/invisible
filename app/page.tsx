@@ -1,9 +1,26 @@
+'use client'
 
 import Image from "next/image";
 import Link from "next/link";
 import { HeroSlider } from "@/components";
+import { useEffect } from "react";
+import AOS from "aos";
+
+import "aos/dist/aos.css";
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init({
+      easing: "ease-out-cubic",
+      offset: 50,
+      delay: 300,
+      duration: 400
+    });
+  }, []);
+  
+  useEffect(() => {
+    AOS.refresh();
+  }, []);
   return (
     <main>
       <HeroSlider />
@@ -67,7 +84,7 @@ export default function Home() {
             </div>
           </div> 
           <div className="order-first md:order-none relative rounded-xl overflow-hidden py-48 lg:py-56 xl:py-80">
-            <div className="absolute left-0 w-full top-0 h-full">
+            <div data-aos="zoom-in" className="absolute left-0 w-full top-0 h-full">
               <Image fill className="size-full object-contain" src="/assets/images/phone-2.jpg" alt='' />
             </div>
           </div>

@@ -1,11 +1,33 @@
+'use client'
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { menu } from '@/lib'
 
 export const Header = () => {
+  const [fixed, setFixed] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (document.documentElement.scrollTop > 100) {
+        setFixed(true);
+      } else {
+        setFixed(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
-    <header className="flex items-center justify-start gap-4 xl:gap-8 py-5 xl:py-7 px-4 xl:px-10">
+    <header className={`${
+      fixed
+        ? "bg-white"
+        : ""
+    } flex sticky w-full z-50 top-0 items-center justify-start gap-4 xl:gap-8 py-5 xl:py-7 px-4 xl:px-10`}>
       <Link href="/" className="relative w-44 h-10">
         <Image className='absolute inset-0' src="/assets/images/logo.png" fill alt='sakdjna' />
       </Link>

@@ -1,11 +1,26 @@
 export {Header} from "./Header"
 export {Newslatter} from "./Newslatter"
 export {Testimonial} from "./Testimonial"
+// home
 export {HeroSlider} from "./Home/HeroSlider"
+export {Payments} from "./Home/Payments"
+export {Ergonomics} from "./Home/Ergonomics"
+export {Cards} from "./Home/Cards"
+export {Advantage} from "./Home/Advantage"
+// about
 export { HeroAbout} from "./About/HeroAbout"
 export {Feature} from "./About/Feature"
 export {Investors} from "./About/Investors"
+export {Leadership} from "./About/Leadership"
+export {Mission} from "./About/Mission"
+export {Values} from "./About/Values"
+export {Carees} from "./About/Carees"
+// safety
 export {Visibility} from "./safety/Visibility"
 export {Training} from "./safety/Training"
+export {Solutions} from "./safety/Solutions"
+export {Action} from "./safety/Action"
+// automotive
 export {Market} from "./automotive/Market"
 export {Cases} from "./automotive/Cases"
+export {Industries} from "./automotive/Industries"
